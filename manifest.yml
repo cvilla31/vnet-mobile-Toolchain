@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: vnet-mobile
+  host: vnet-mobile
+  disk_quota: 1024M
+  services:
+  - vnet-mobile-AdvancedMobileAccess
+  - vnet-mobile-imfpush
+  - vnet-mobile-cloudantNoSQLDB
